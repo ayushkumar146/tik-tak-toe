@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(43, 226, 198);
+}
+nav{
+    background-color: rgb(90, 4, 61);
+    color: rgba(237, 230, 28, 0.911);
+   height: 74px;
+   font-size: 34px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+nav ul{
+list-style-type: none;
+}
+.gcr{
+    display: flex;
+   justify-content: center;
+   margin-top: 10vh;
+  background-image: url(pic.jpg);
+   
+    
+}
+.gc{
+    display: flex;
+    justify-content: center;
+   
+}
+.p1 {
+    color: azure;
+    font-size: 24px;
+    padding: auto;
+}
+.p1:hover{
+    color: rgb(234, 51, 188);
+}
+.p2:hover{
+    color: rgb(234, 51, 188);
+}
+.p1  h2{
+    color: rgb(102, 255, 0);
+}
+.p2  h2{
+    color: rgb(102, 255, 0);
+}
+.p2{
+    color: rgb(240, 255, 255);
+    font-size: 24px;
+    padding: auto;
+}
+.c{
+    /* background-color: blue; */
+    display: grid;
+    color: burlywood;
+    /* padding: 18px; */
+    /* align-content: center;
+    justify-content: center; */
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    /* padding: auto;
+    margin: 20vh 20vw; */
+}
+.box{
+   
+    /* background-color: blue; */
+    border: 2px solid rgb(227, 79, 217);
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 5vw;
+}
+.box:hover{
+    background-color: rgb(61, 243, 164);
+    color: rgb(115, 102, 230);
+}
+.tt-0{
+    
+    border-top: 0;
+}
+.tl-0{
+    border-left: 0;
+}
+.tr-0{
+    border-right: 0;
+}
+.td-0{
+    border-bottom: 0;
+}
+.gi{
+    font-size: 78px;
+    padding: 92px;
+    
+}
+.i{
+    border-radius: 2rem;
+    color: darkturquoise;
+    border: 9px solid red;
+}
+.i:hover{
+    background-color: rgb(143, 50, 214);
+    color: rgb(144, 222, 135);
+}
+.b{
+    font-size: 47px;
+    color: rgb(198, 232, 88);
+}
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+.f{
+    background-color: rgb(77, 255, 0);
+    
+    font-size: 5vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    color: rgb(199, 26, 14);
+}
+.gif img{
+  width: 0;
+  transition:  ease-in-out;
+  padding: 17px;
+
+}
+.giff img{
+    width: 0;
+    transition:  ease-in-out;
+    /* padding: 17px; */
+  
+  }
+/* @media screen and (max-width: 950px)
+{
+    .gc{
+        flex-wrap: wrap;
+    }
+    .gi{
+        margin-top: 34px;
+    }
+    
+    .c { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+} */
